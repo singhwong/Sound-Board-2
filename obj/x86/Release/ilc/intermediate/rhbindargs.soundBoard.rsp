@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\singhwong\source\repos\UWP\soundBoard\obj\x86\Release\ilc\intermediate\MDIL\soundBoard.mdilexe"
+"/i:C:\Users\singhwong\source\repos\UWP\soundBoard\obj\x86\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\singhwong\source\repos\UWP\soundBoard\obj\x86\Release\ilc\intermediate\Native\soundBoard.exe"
+"/pdbAltPath:C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc"
+"/res:C:\Users\singhwong\source\repos\UWP\soundBoard\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

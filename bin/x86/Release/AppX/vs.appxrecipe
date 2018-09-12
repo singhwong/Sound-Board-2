@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DHIRL57</Machine>
+    <WindowsUser>singhwong</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a7e42106-95b2-422b-ad34-ccf19ae64120</PackageIdentityName>
+    <PackageIdentityPublisher>CN=singhwong</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\singhwong\source\repos\UWP\soundBoard\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5E0D6223CB613176981F95E236ACA9C75891E12A41EA8507A49BA4365BF805F5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a7e42106-95b2-422b-ad34-ccf19ae64120_1.0.0.0_x86__ab7qqbjy70g02</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a7e42106-95b2-422b-ad34-ccf19ae64120_ab7qqbjy70g02!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a7e42106-95b2-422b-ad34-ccf19ae64120</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=singhwong</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T20:25:42.551</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Animals\Cat.wav">
+      <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Animals\Cow.wav">
+      <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Cartoons\Gun.wav">
+      <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Cartoons\Spring.wav">
+      <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Taunts\Clock.wav">
+      <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Taunts\LOL.wav">
+      <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Warnings\Ship.wav">
+      <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Audio\Warnings\Siren.wav">
+      <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
+      <Modified>2018-09-12T13:06:51.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Icons\animals.png">
+      <PackagePath>Assets\Icons\animals.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Icons\cartoon.png">
+      <PackagePath>Assets\Icons\cartoon.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Icons\taunt.png">
+      <PackagePath>Assets\Icons\taunt.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Icons\warning.png">
+      <PackagePath>Assets\Icons\warning.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Animals\Cat.png">
+      <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Animals\Cow.png">
+      <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Cartoons\Gun.png">
+      <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Cartoons\Spring.png">
+      <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Taunts\Clock.png">
+      <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Taunts\LOL.png">
+      <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Warnings\Ship.png">
+      <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Images\Warnings\Siren.png">
+      <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
+      <Modified>2018-09-12T13:06:51.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-09-12T13:06:52.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\1240x1240.png">
+      <PackagePath>Assets\PackageAppXManifest\1240x1240.png</PackagePath>
+      <Modified>2018-09-12T13:06:52.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\1240x600.png">
+      <PackagePath>Assets\PackageAppXManifest\1240x600.png</PackagePath>
+      <Modified>2018-09-12T13:06:52.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\24x24-large.png">
+      <PackagePath>Assets\PackageAppXManifest\24x24-large.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\24x24.png">
+      <PackagePath>Assets\PackageAppXManifest\24x24.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\300x300.png">
+      <PackagePath>Assets\PackageAppXManifest\300x300.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\310x310.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\310x310.scale-100.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\50x50-large.png">
+      <PackagePath>Assets\PackageAppXManifest\50x50-large.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\50x50.png">
+      <PackagePath>Assets\PackageAppXManifest\50x50.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\620x300.png">
+      <PackagePath>Assets\PackageAppXManifest\620x300.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\71x71-large.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71-large.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\71x71.scale-100.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71.scale-100.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\88x88-large.png">
+      <PackagePath>Assets\PackageAppXManifest\88x88-large.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\PackageAppXManifest\88x88.png">
+      <PackagePath>Assets\PackageAppXManifest\88x88.png</PackagePath>
+      <Modified>2018-09-12T13:06:53.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:53.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:54.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:54.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:55.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-15T22:18:25.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:55.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T13:06:55.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T13:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T20:25:12.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\soundBoard.dll">
+      <PackagePath>soundBoard.dll</PackagePath>
+      <Modified>2018-09-12T20:25:42.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\soundBoard.exe">
+      <PackagePath>soundBoard.exe</PackagePath>
+      <Modified>2018-09-12T20:25:42.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\singhwong\source\repos\UWP\soundBoard\bin\x86\Release\ilc\soundBoard.pdb">
+      <PackagePath>soundBoard.pdb</PackagePath>
+      <Modified>2018-09-12T20:25:42.534</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
