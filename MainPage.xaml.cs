@@ -35,14 +35,17 @@ namespace soundBoard
         private void main_listview_ItemClick(object sender, ItemClickEventArgs e)
         {
             var value = (Icon)e.ClickedItem;
-            switch (value.Category.ToString())
-            {
-                case "Animals":main_frame.Navigate(typeof(animalsPage));break;
-                case "Cartoon":main_frame.Navigate(typeof(cartoonPage));break;
-                case "Taunt":main_frame.Navigate(typeof(tauntPage));break;
-                case "Warning": main_frame.Navigate(typeof(warningPage));break;
-                default: break;
-            }
+                switch (value.Category.ToString())
+                {
+                    case "Animals": main_frame.Navigate(typeof(animalsPage)); break;
+                    case "Nature": main_frame.Navigate(typeof(naturePage)); break;
+                    case "Traffic": main_frame.Navigate(typeof(trafficPage)); break;
+                    case "Male": main_frame.Navigate(typeof(malePage)); break;
+                    case "Setting": main_frame.Navigate(typeof(settingPage)); break;
+                    default: break;
+                }
+
+            
             main_textblock.Text = value.Category.ToString();
         }
 

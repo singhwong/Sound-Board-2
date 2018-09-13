@@ -41,7 +41,14 @@ namespace soundBoard
 
         private void auto_suggestbox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
         {
-            SoundManager.GetSoundByName(sounds, sender.Text);
+            if (!String.IsNullOrEmpty(auto_suggestbox.Text))
+            {
+                SoundManager.GetSoundByName(sounds, sender.Text);
+            }
+            else
+            {
+                SoundManager.GetAllSounds(sounds);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="DimGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,6 +22,8 @@
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE71D;"
                     FontSize="30"
+                    Background="DimGray"
+                    Foreground="White"
                     Click="list_button_Click"/>
             <Button Name="back_button"
                     RelativePanel.RightOf="list_button"
@@ -30,40 +32,43 @@
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE72B;"
                     FontSize="30"
+                    Margin="5,0,0,0"
+                    Background="DimGray"
+                    Foreground="White"
                     Click="back_button_Click"/>
             <TextBlock Name="main_textblock"
                        Text="All Sounds"
+                       FontStyle="Italic"
+                       FontWeight="Light"
+                       Foreground="White"
                        FontSize="30"
                        RelativePanel.RightOf="back_button"
                        Margin="10,0,0,0"/>
-            <!--<AutoSuggestBox Name="auto_suggestbox"
-                        Width="200"
-                        Margin="0,0,10,0"
-                            QueryIcon="Find"
-                        RelativePanel.AlignRightWithPanel="True"
-                        RelativePanel.AlignVerticalCenterWithPanel="True"
-                            QuerySubmitted="auto_suggestbox_QuerySubmitted"
-                        PlaceholderText="Search for Sounds"/>-->
         </RelativePanel>
         <SplitView Name="main_splitview"
                    Grid.Row="1"
                    IsPaneOpen="False"
                    DisplayMode="CompactInline"
-                   CompactPaneLength="50"
+                   CompactPaneLength="45"
                    OpenPaneLength="150">
             <SplitView.Pane>
                 <ListView Name="main_listview"
                           IsItemClickEnabled="True"
                           ItemsSource="{x:Bind main_icon}"
+                          Background="DimGray"
                           ItemClick="main_listview_ItemClick">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data1:Icon">
-                            <StackPanel Orientation="Horizontal">
-                                <Image Height="30"
-                                       Width="30"
+                            <StackPanel Orientation="Horizontal"
+                                        Height="70">
+                                <Image Height="40"
+                                       Width="40"
+                                       Margin="-10,0,0,0"
                                        Source="{x:Bind IconPath}"/>
                                 <TextBlock Text="{x:Bind Category}"
                                            FontSize="20"
+                                           Foreground="LightBlue"
+                                           FontStyle="Italic"
                                            VerticalAlignment="Center"
                                            Margin="10,0,0,0"/>
                             </StackPanel>
@@ -73,7 +78,7 @@
             </SplitView.Pane>
             <SplitView.Content>
                 <Frame Name="main_frame">
-                   
+
                 </Frame>
             </SplitView.Content>
 

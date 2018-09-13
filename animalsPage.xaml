@@ -2,7 +2,6 @@
     x:Class="soundBoard.animalsPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:soundBoard"
@@ -17,7 +16,17 @@
                       AutoPlay="True"/>
         <TextBlock Name="type_textblock"
                    FontSize="24"
-                   Text="Type"/>
+                   FontStyle="Italic"
+                   FontWeight="Light"
+                   Foreground="SkyBlue"/>
+        <AutoSuggestBox Name="auto_suggestbox"
+                        Width="200"
+                        Margin="0,0,10,0"
+                        QueryIcon="Find"                      
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        QuerySubmitted="auto_suggestbox_QuerySubmitted"
+                        PlaceholderText="Search for Sounds"/>
         <GridView Grid.Row="1"
                   Name="animals_gridview"
                   IsItemClickEnabled="True"
@@ -25,8 +34,8 @@
                   ItemsSource="{x:Bind newsound}">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:Sound">
-                    <Image Height="50"
-                           Width="50"
+                    <Image Height="150"
+                           Width="150"
                            Source="{x:Bind ImagePath}"/>
                 </DataTemplate>
             </GridView.ItemTemplate>

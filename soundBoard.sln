@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soundBoard", "soundBoard.csproj", "{34A5985E-E261-452F-9170-9D0E483B40EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|ARM.Build.0 = Debug|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x64.ActiveCfg = Debug|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x64.Build.0 = Debug|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x64.Deploy.0 = Debug|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x86.ActiveCfg = Debug|x86
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x86.Build.0 = Debug|x86
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Debug|x86.Deploy.0 = Debug|x86
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|ARM.ActiveCfg = Release|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|ARM.Build.0 = Release|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|ARM.Deploy.0 = Release|ARM
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x64.ActiveCfg = Release|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x64.Build.0 = Release|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x64.Deploy.0 = Release|x64
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x86.ActiveCfg = Release|x86
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x86.Build.0 = Release|x86
+		{34A5985E-E261-452F-9170-9D0E483B40EF}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C20BC0-1E06-4C23-9220-8E022F332A22}
+	EndGlobalSection
+EndGlobal

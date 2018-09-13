@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace soundBoard
 {
-    class Sound
+    public class Sound
     {
         public string Name { get; set; }
         public SoundCategory Category { get; set; }

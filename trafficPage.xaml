@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="soundBoard.trafficPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:soundBoard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <MediaElement Name="media_element"
+                      AutoPlay="True"/>
+        <TextBlock Name="type_textblock"
+                   FontSize="24"
+                   FontStyle="Italic"
+                   FontWeight="Light"
+                   Foreground="SkyBlue"/>
+        <AutoSuggestBox Name="auto_suggestbox"
+                        Width="200"
+                        Margin="0,0,10,0"
+                        QueryIcon="Find"                      
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        QuerySubmitted="auto_suggestbox_QuerySubmitted"
+                        PlaceholderText="Search for Sounds"/>
+        <GridView Grid.Row="1"
+                  Name="traffic_gridview"
+                  IsItemClickEnabled="True"
+                  ItemClick="traffic_gridview_ItemClick"
+                  ItemsSource="{x:Bind traffic_sound}">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="local:Sound">
+                    <Image Height="150"
+                           Width="150"
+                           Source="{x:Bind ImagePath}"/>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>

@@ -35,9 +35,21 @@ namespace soundBoard
         private void animals_gridview_ItemClick(object sender, ItemClickEventArgs e)
         {
             var value = (Sound)e.ClickedItem;
-            media_element.Source = new Uri(this.BaseUri,value.AudioPath);
+            media_element.Source = new Uri(this.BaseUri, value.AudioPath);
             type_textblock.Text = value.Name.ToString();
             media_element.Play();
+        }
+
+        private void auto_suggestbox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
+        {
+            if (!String.IsNullOrEmpty(auto_suggestbox.Text))
+            {
+                SoundManager.GetSoundByName(newsound, sender.Text);
+            }
+            else
+            {
+                SoundManager.GetSoundByCategory(newsound, SoundCategory.Animals);
+            }
         }
     }
 }

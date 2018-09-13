@@ -17,17 +17,19 @@ namespace soundBoard
         {
             var iconvalue = new List<Icon>();
             iconvalue.Add(new Icon {IconPath="Assets/Icons/animals.png",Category = SoundCategory.Animals});
-            iconvalue.Add(new Icon { IconPath = "Assets/Icons/cartoon.png", Category = SoundCategory.Cartoons });
-            iconvalue.Add(new Icon { IconPath = "Assets/Icons/taunt.png", Category = SoundCategory.Taunts });
-            iconvalue.Add(new Icon { IconPath = "Assets/Icons/warning.png", Category = SoundCategory.Warnings });
+            iconvalue.Add(new Icon { IconPath = "Assets/Icons/male.png", Category = SoundCategory.Male });
+            iconvalue.Add(new Icon { IconPath = "Assets/Icons/nature.png", Category = SoundCategory.Nature });
+            iconvalue.Add(new Icon { IconPath = "Assets/Icons/traffic.png", Category = SoundCategory.Traffic });
+            iconvalue.Add(new Icon { IconPath = "Assets/Icons/setting.png",Category = SoundCategory.Setting});
             return iconvalue;
         }
     }
     public enum SoundCategory
     {
         Animals,
-        Cartoons,
-        Taunts,
-        Warnings
+        Male,
+        Nature,
+        Traffic,
+        Setting
     }
 }
